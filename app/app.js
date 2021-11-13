@@ -18,6 +18,7 @@ const PORT = process.env.PORT || 3000;
  * Configures
  */
 app.set('port', PORT);
+require('./config/connect-mongo');
 
 /**
  * Middlewares
