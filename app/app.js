@@ -23,12 +23,30 @@ app.set('port', PORT);
  * Middlewares
  */
 
+/**
+ * Routes
+ */
+app.get('/', (req, res) => {
+	res.sendFile(path.resolve('public'));
+});
+
+app.post('/createRoom', (req, res) => {
+
+});
+
+app.post('/joinRoom', (req, res) => {
+
+});
+
 
 /**
  * Render build production
  */
 app.use(express.static(path.join(__dirname, '../public')));
 
+/**
+ * Socket.io server
+ */
 io.on("connection", (socket) => {
 	console.log('new connection.');
 });
