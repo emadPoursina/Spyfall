@@ -1,0 +1,30 @@
+{
+  "name": "spyfall",
+  "version": "1.0.0",
+  "description": "Spyfall game with socket.io/nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emadpoursina/spyfall.git"
+  },
+  "keywords": [
+    "node.js",
+    "socket.io",
+    "html5",
+    "javascript"
+  ],
+  "author": "Emad Poursina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emadpoursina/spyfall/issues"
+  },
+  "homepage": "https://github.com/emadpoursina/spyfall#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.2"
+  }
+}
